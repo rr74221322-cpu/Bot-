@@ -9,12 +9,12 @@ const pairingFinalized = new Set();
 const PAIR_COOLDOWN_MS = 30_000;
 const BRAND = "𝑿 𝑵𝑶𝑩𝑰𝑻𝑨 𝑴𝑶𝑫𝒁";
 const START_PHOTO = path.join(process.cwd(), "telegram_start.jpg");
-const OFFICIAL_PAIR_GROUP_ID = "-1003875056500";
+const OFFICIAL_PAIR_GROUP_ID = "-1004299700995";
 const OFFICIAL_PAIR_GROUP_LINK = "https://t.me/x_nobita_xd_pair";
 
 // Telegram Bot Token: paste your BotFather token here.
 // Environment variable is supported too; the value below is used if it is set.
-const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN || "8956010800:AAFqnRIPwx3HWi5Kf-U_T3uqT0IZB8mM9Gw";
+const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN || "8635096222:AAG_IFZxdv5JC67nwKGw7TGPqW-VPVvagIk";
 
 function normalizePhone(value) { return String(value || "").replace(/\D/g, ""); }
 function isoToFlag(iso) {
